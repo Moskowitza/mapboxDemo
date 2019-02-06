@@ -1,0 +1,19 @@
+{
+  "name": "mapboxdemo",
+  "version": "1.0.0",
+  "description": "DemoMapBox",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Moskowitza/mapboxDemo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Moskowitza/mapboxDemo/issues"
+  },
+  "homepage": "https://github.com/Moskowitza/mapboxDemo#readme"
+}
