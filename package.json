@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Moskowitza/mapboxDemo/issues"
   },
-  "homepage": "https://github.com/Moskowitza/mapboxDemo#readme"
+  "homepage": "https://github.com/Moskowitza/mapboxDemo#readme",
+  "dependencies": {
+    "webpack": "^4.29.2"
+  }
 }
