@@ -1,4 +1,5 @@
 const express = require('express');
+require('dotenv').config();
 // require Express
 const router = express.Router(); // setup usage of the Express router engine
 
@@ -6,8 +7,8 @@ const router = express.Router(); // setup usage of the Express router engine
 const { Client, Query } = require('pg');
 
 // Setup connection
-const username = '.env.SQLUSERNAME'; // sandbox username
-const password = '.env.SQLPASSWORD'; // read only privileges on our table
+const username = 'process.env.SQLUSERNAME'; // sandbox username
+const password = 'process.env.SQLPASSWORD'; // read only privileges on our table
 const host = 'localhost:5432';
 const database = 'cambridge'; // database name
 const conString =
